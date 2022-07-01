@@ -1,0 +1,6 @@
+GET http://localhost:8081/api/flights?departureDate=2014-11-28&IATACode=ANC
+###
+
+GET http://localhost:8081/api/flights?departureDate=2014-11-28&flightNumber=4795
+
+###

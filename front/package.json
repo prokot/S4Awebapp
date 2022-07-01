@@ -1,0 +1,9 @@
+{
+    "name": "S4A-app",
+    "scripts": {
+      "dev": "http-server -p 8083 -c-1 -o /index.html"
+    },
+    "devDependencies": {
+      "http-server": "0.12.3"
+    }
+  }

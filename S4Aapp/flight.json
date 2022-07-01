@@ -1,0 +1,37 @@
+[
+  {
+    "flightId": 0,
+    "flightNumber": 4795,
+    "departureAirportIATACode": "ANC",
+    "arrivalAirportIATACode": "MIT",
+    "departureDate": "2014-11-28T03:10:54-01:00"
+  },
+  {
+    "flightId": 1,
+    "flightNumber": 7083,
+    "departureAirportIATACode": "ANC",
+    "arrivalAirportIATACode": "KRK",
+    "departureDate": "2014-11-28T03:10:54-01:00"
+  },
+  {
+    "flightId": 2,
+    "flightNumber": 7963,
+    "departureAirportIATACode": "SEA",
+    "arrivalAirportIATACode": "ANC",
+    "departureDate": "2014-11-28T03:10:54-01:00"
+  },
+  {
+    "flightId": 3,
+    "flightNumber": 1303,
+    "departureAirportIATACode": "LAX",
+    "arrivalAirportIATACode": "KRK",
+    "departureDate": "2018-06-03T05:22:58-02:00"
+  },
+  {
+    "flightId": 4,
+    "flightNumber": 9793,
+    "departureAirportIATACode": "LAX",
+    "arrivalAirportIATACode": "KRK",
+    "departureDate": "2019-11-04T11:34:54-01:00"
+  }
+]

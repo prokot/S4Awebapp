@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer="defer"></script>
+  </head>
+  <body>
+	<div class="container">
+        <header class="header">
+            <h1>S4A APP</h1>
+        </header>
+        <section class="main-section">
+            <article class="text--justified">
+
+                <header><h2>Get flight cargo</h2></header>
+                <form class="Cargo_weight" id="cargoForm">
+                    <label for="flightNumber">Flight Number:</label>
+                    <input class="ui-control ui-input" id="flightNumber" name="flightNumber" type="number"/>
+                    <label for="departureDate">Departure Date:</label>
+                    <input class="ui-control ui-input" id="departureDate" name="departureDate" type="date" step="any"/>
+                    <input class="ui-control ui-button" type="submit" name="Submit"/>
+                </form>
+                <div id="cargoInfo" >
+                    <ul>
+                        <li><span>Cargo weight:</span><span id ="CargoWeight"></span>kg</li>
+                        <li><span>Baggage weight:</span><span id = "BaggageWeight"></span>kg</li>
+                        <li><span>Total weight:</span><span id="TotalWeight"></span>kg</li>
+                    </ul>
+                </div>
+
+
+                <header><h2>Get flight info by IATA Code</h2></header>
+                <form class="IATA_Code" id="IATAForm">
+                    <label for="IATACode">IATA Code:</label>
+                    <input class="ui-control ui-input" id="IATACode" name="IATACode" type="text"/>
+                    <label for="departureDate1">Departure Date:</label>
+                    <input class="ui-control ui-input" id="departureDate1" name="departureDate1" type="date" step="any"/>
+                    <input class="ui-control ui-button" type="submit" name="Submit"/>
+                </form>
+                <div id="IATAInfo" >
+                    <ul>
+                        <li><span>Arrival flights number:</span><span id ="arrivNo"></span></li>
+                        <li><span>Departure flights number:</span><span id = "departNo"></span></li>
+                        <li><span>Total pieces arriving:</span><span id="arrivPieces"></span></li>
+                        <li><span>Total pieces departing:</span><span id="departPieces"></span></li>
+                    </ul>
+                </div>
+
+            </article>
+        </section>
+
+
+  </body>
+</html>
