@@ -14,17 +14,11 @@ and
 npm run dev
 ```
 
-## Usage
+## Testing
+Additionally, I added basic http requests (using IntelliJ HTTP Client). 
+They can be executed using IntelliJ IDE.
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+##H2 Database
+The database can be accessed [here](http://localhost:8081/h2-console).
+Login: ```admin```
+Password: ```adminadmin``` 
