@@ -1,6 +1,12 @@
-GET http://localhost:8081/api/flights?departureDate=2014-11-28&IATACode=ANC
+http://localhost:8081/api/flights?departureDate=2014-11-28&IATACode=ANC
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.body.cargoWeight === 2010, "Response status is not 200");
+});
+%}
 ###
 
-GET http://localhost:8081/api/flights?departureDate=2014-11-28&flightNumber=4795
+http://localhost:8081/api/flights?departureDate=2014-11-28&flightNumber=4795
 
 ###
