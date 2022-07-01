@@ -16,9 +16,12 @@ npm run dev
 
 ## Testing
 Additionally, I added basic http requests (using IntelliJ HTTP Client). 
+
 They can be executed using IntelliJ IDE.
 
-##H2 Database
+## H2 Database
 The database can be accessed [here](http://localhost:8081/h2-console).
+
 Login: ```admin```
+
 Password: ```adminadmin``` 
